@@ -1,6 +1,6 @@
 Name:           perl-Taint-Runtime
 Version:        0.03
-Release:        17%{?dist}
+Release:        19%{?dist}
 Summary:        Runtime enable taint checking
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -49,6 +49,12 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.03-19
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.03-18
+- Mass rebuild 2013-12-27
+
 * Mon Oct 29 2012 Petr Pisar <ppisar@redhat.com> - 0.03-17
 - Specify all dependencies
 
